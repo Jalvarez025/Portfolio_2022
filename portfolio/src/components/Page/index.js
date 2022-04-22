@@ -4,20 +4,20 @@ import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Resume from '../Resume';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+//import { capitalizeFirstLetter } from '../../utils/helpers';
 
 
 function Page({ currentPage }) {
 
   const renderPage = () => {
     switch (currentPage.name) {
-      case 'about me':
+      case 'About me':
         return <About />;
-      case 'portfolio':
+      case 'Portfolio':
         return <Portfolio />;
-      case 'contact':
+      case 'Contact':
         return <Contact />;
-      case 'resume':
+      case 'Resume':
         return <Resume />;
       default:
         return <About />;
@@ -26,7 +26,7 @@ function Page({ currentPage }) {
 
   return (
     <section>
-      <h2>{capitalizeFirstLetter(currentPage.name)}</h2>
+      <h2>{currentPage.name}</h2>
       <PageContent>{renderPage()}</PageContent>
     </section>
   );
