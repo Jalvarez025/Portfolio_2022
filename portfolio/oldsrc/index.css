@@ -11,15 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-header {
-  width: 100%;
-  height: 200px;
-  background-image: url("./assets/Bluebonnet-Banner.jpg");
-  
-}
-
-.name {
-  padding: 15px 30px;
-  margin: 0;
-}
