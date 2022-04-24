@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "../src/components/Header";
-import Nav from "../src/components/Nav"
+//import Page from "../src/components/Page"
+//import Nav from "../src/components/Nav"
 
 function App() {
   return (
   <div>
     <Header/>
-    <Nav/>
+    
+    
   </div>
   );
 }

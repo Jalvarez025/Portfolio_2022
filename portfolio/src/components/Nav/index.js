@@ -45,8 +45,8 @@ const handleChange = (event, newValue) => {
 };
 
 return (
-    <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-    <Tabs value={value} onChange={handleChange} centered>
+    <Box className='headerComponent' sx={{ bgcolor: 'background.paper' }}>
+    <Tabs value={value} onChange={handleChange} >
         <Tab label="About Me" />
         <Tab label="Portfolio" />
         <Tab label="Contact" />
